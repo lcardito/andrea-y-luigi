@@ -1,60 +1,59 @@
 # Main config file for icon theme.
-theme = "hugo-icon"
 baseURL = "https://www.example.com/"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "We are getting married!"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Andrea & Luigi"
+  description = "Some details about our wedding arrangements"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  img = "images/proposal_1.jpg"
+  title = "We are getting married!"
+  description = "Some details about our wedding arrangements"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  theDay = "The Day"
   services = "Services"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
-# Mission section
-[params.mission]
+# theDay section
+[params.theDay]
   enable = true
 
-  [params.mission.images]
+  [params.theDay.images]
     enable = true
 
-    [[params.mission.images.list]]
+    [[params.theDay.images.list]]
       img = "images/img_3.jpg"
-    [[params.mission.images.list]]
+    [[params.theDay.images.list]]
       img = "images/img_2.jpg"
-    [[params.mission.images.list]]
+    [[params.theDay.images.list]]
       img = "images/img_1.jpg"
-    [[params.mission.images.list]]
+    [[params.theDay.images.list]]
       img = "images/img_4.jpg"
 
-  [[params.mission.item]]
+  [[params.theDay.item]]
     weight = 1
     name = "marketing"
     title = "Marketing"
     subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
     description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
 
-  [[params.mission.item]]
+  [[params.theDay.item]]
     weight = 2
     name = "analysis"
     title = "Resources"
     subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
     description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
 
-  [[params.mission.item]]
+  [[params.theDay.item]]
     weight = 3
     name = "strategy"
     title = "Strategy"

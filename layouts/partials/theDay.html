@@ -1,18 +1,18 @@
-<div id="fh5co-about" data-section="mission">
+<div id="fh5co-about" data-section="theDay">
   <div class="fh5co-2col">
     
     <div class="fh5co-2col-inner left">
       
       <div class="fh5co-tabs-container">
 	<ul class="fh5co-tabs fh5co-three">
-	  {{ range .Site.Params.mission.item }}
+	  {{ range .Site.Params.theDay.item }}
 	  {{ if eq .weight 1}}<li class="active">{{ else }}<li>{{ end }}
 	    <a href="#" data-tab={{ .name }}>{{ .title }}</a>
 	  </li>
 	  {{ end }}
 	</ul>
 
-	{{ range .Site.Params.mission.item }}
+	{{ range .Site.Params.theDay.item }}
 	{{ if eq .weight 1}}
 	<div class="fh5co-tab-content active" data-tab-content={{ .name }}>
 	{{ else }}
@@ -32,8 +32,8 @@
   
   <div class="fh5co-2col fh5co-text">
     <div class="fh5co-grid">
-      {{ if .Site.Params.mission.images.enable }}
-      {{ range .Site.Params.mission.images.list }}
+      {{ if .Site.Params.theDay.images.enable }}
+      {{ range .Site.Params.theDay.images.list }}
       <div class="fh5co-grid-item" style="background-image: url({{ with .img }}{{ . | absURL }}{{ end }});"></div>
       {{ end }}
       {{ end }}
