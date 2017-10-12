@@ -228,7 +228,7 @@
 		});
 		$('.fh5co-main-nav a:not([class="external"]), #fh5co-offcanvas a:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section');
-
+            console.log(section);
 				if ( $('div[data-section="' + section + '"]').length ) {
 
 					$('html, body').animate({
@@ -256,6 +256,7 @@
 	var navigationSection = function() {
 
 		var $section = $('div[data-section]');
+        console.log($section);
 		
 		$section.waypoint(function(direction) {
 		  	if (direction === 'down') {
@@ -275,10 +276,6 @@
 		});
 
 	};
-
-
-	
-
 
 	// Document on load.
 	$(function(){

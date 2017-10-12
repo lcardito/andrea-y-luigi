@@ -9,9 +9,13 @@
 	<a href="#" data-nav-section="day">{{ with .Site.Params.nav.day }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-	{{ if .Site.Params.services.enable }}
-	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
+	{{ if .Site.Params.travel.enable }}
+	<a href="#" data-nav-section="travel">{{ with .Site.Params.nav.travel }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
+
+    {{ if .Site.Params.photos.enable }}
+    <a href="#" data-nav-section="gallery">{{ with .Site.Params.nav.photos }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
 
 	{{ if .Site.Params.team.enable }}
 	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
@@ -20,7 +24,7 @@
 	{{ if .Site.Params.contact.enable }}
 	<a href="#" data-nav-section="contact">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
-	
+
       </div>
     </div>
   </div>

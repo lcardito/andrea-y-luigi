@@ -18,7 +18,8 @@ publishDir = "docs"
 # Navigation section
 [params.nav]
   day = "The Day"
-  services = "Services"
+  travel = "Travel"
+  photos = "Photos"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -61,91 +62,77 @@ publishDir = "docs"
     subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
     description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p>"
 
-# Services section
-[params.services]
+# travel section
+[params.travel]
   enable = true
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
+  title = "Travel"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
+  [[params.travel.item]]
+    icon = "icon-plane"
+    title = "Airport"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
+  [[params.travel.item]]
+    icon = "icon-direction"
+    title = "Minibus"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
+  [[params.travel.item]]
+    icon = "icon-home"
+    title = "Arrived"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-# Work section
-[params.work]
+# photos section
+[params.photos]
   enable = true
+  title="Some photos"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_1.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_2.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_3.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_2.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_3.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_2.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_3.jpg"
 
-  [[params.work.item]]
+  [[params.photos.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
     img = "images/img_4.jpg"
 
 # Team section
 [params.team]
-  enable = true
+  enable = false
   title = "Meet The Team"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
@@ -181,17 +168,6 @@ publishDir = "docs"
     dribbble = "#"
     instagram = "#"
     github = "#"
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
 
 # Contact section
 [params.contact]

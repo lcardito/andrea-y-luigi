@@ -1,15 +1,20 @@
-<div id="fh5co-gallery">
-  {{ range .Site.Params.work.item }}
-  <a href="{{ .img | absURL }}" class="fh5co-item image-popup" style="background-image: url({{ .img | absURL }})">
-    <div class="fh5co-overlay"></div>
-    <div class="fh5co-copy">
-      <div class="fh5co-copy-inner">
-	<h2>{{ .title }}</h2>
-	{{ if isset . "subtitle" }}
-	<h3>{{ .subtitle }}</h3>
-	{{ end }}
-      </div>
+<div data-section="gallery">
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+        <h2>{{ .Site.Params.photos.title }}</h2>
     </div>
-  </a>
-  {{ end }}
+    <div id="fh5co-gallery">
+        {{ range .Site.Params.photos.item }}
+        <a href="{{ .img | absURL }}" class="fh5co-item image-popup" style="background-image: url({{ .img | absURL }})">
+            <div class="fh5co-overlay"></div>
+            <div class="fh5co-copy">
+                <div class="fh5co-copy-inner">
+                    <h2>{{ .title }}</h2>
+                    {{ if isset . "subtitle" }}
+                    <h3>{{ .subtitle }}</h3>
+                    {{ end }}
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
 </div> <!-- END fh5co-gallery -->

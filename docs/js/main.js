@@ -276,10 +276,6 @@
 
 	};
 
-
-	
-
-
 	// Document on load.
 	$(function(){
 

@@ -537,16 +537,16 @@ p {
   outline: none;
 }
 
-#fh5co-services {
+#fh5co-travel {
   position: relative;
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services {
+  #fh5co-travel {
     padding: 5em 0 3em 0;
   }
 }
-#fh5co-services .fh5co-video {
+#fh5co-travel .fh5co-video {
   position: absolute;
   top: 0;
   width: 90px;
@@ -556,12 +556,12 @@ p {
   top: -45px;
   text-align: center;
 }
-#fh5co-services .fh5co-video span {
+#fh5co-travel .fh5co-video span {
   display: block;
   padding-top: 100px;
   font-size: 14px;
 }
-#fh5co-services .fh5co-video a {
+#fh5co-travel .fh5co-video a {
   float: left;
   width: 90px;
   height: 90px;
@@ -577,7 +577,7 @@ p {
   -ms-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.19);
 }
-#fh5co-services .fh5co-video a i {
+#fh5co-travel .fh5co-video a i {
   padding-left: 10px;
   text-align: center;
   height: 90px;
@@ -586,10 +586,10 @@ p {
   font-size: 40px;
   line-height: 40px;
 }
-#fh5co-services .fh5co-video a:hover {
+#fh5co-travel .fh5co-video a:hover {
   background: #57D131;
 }
-#fh5co-services .fh5co-video a:hover, #fh5co-services .fh5co-video a:focus, #fh5co-services .fh5co-video a:active {
+#fh5co-travel .fh5co-video a:hover, #fh5co-travel .fh5co-video a:focus, #fh5co-travel .fh5co-video a:active {
   text-decoration: none;
   outline: none;
   -webkit-transform: scale(1.2);
@@ -598,7 +598,7 @@ p {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-#fh5co-services .service {
+#fh5co-travel .service {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -614,23 +614,23 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#fh5co-services .service .icon {
+#fh5co-travel .service .icon {
   text-align: center;
   width: 100%;
   margin-bottom: 30px;
 }
-#fh5co-services .service .icon i {
+#fh5co-travel .service .icon i {
   font-size: 40px;
   color: #57D131;
 }
-#fh5co-services .service h3 {
+#fh5co-travel .service h3 {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   color: #368f95;
 }
-#fh5co-services .service:hover, #fh5co-services .service:focus {
+#fh5co-travel .service:hover, #fh5co-travel .service:focus {
   border: 1px solid #e6e6e6;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
