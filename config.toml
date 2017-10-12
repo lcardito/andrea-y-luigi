@@ -2,6 +2,7 @@
 baseURL = "https://www.example.com/"
 languageCode = "en-AU"
 title = "We are getting married!"
+publishDir = "docs"
 
 # Metadata
 [params]
