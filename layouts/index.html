@@ -18,8 +18,8 @@
 	
 	{{ partial "nav.html" . }}
 
-	{{ if .Site.Params.theDay.enable }}
-	{{ partial "theDay.html" . }}
+	{{ if .Site.Params.day.enable }}
+	{{ partial "day.html" . }}
 	{{ end }}
 	
 	{{ if .Site.Params.services.enable }}

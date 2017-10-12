@@ -5,8 +5,8 @@
 
 	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="20" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
 
-	{{ if .Site.Params.theDay.enable }}
-	<a href="#" data-nav-section="theDay">{{ with .Site.Params.nav.theDay }}{{ . | markdownify }}{{ end }}</a>
+	{{ if .Site.Params.day.enable }}
+	<a href="#" data-nav-section="day">{{ with .Site.Params.nav.day }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.services.enable }}
