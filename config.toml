@@ -1,5 +1,5 @@
 # Main config file for icon theme.
-baseURL = "https://www.example.com/"
+baseURL = "http://andrea-y-luigi.surge.sh/"
 languageCode = "en-AU"
 title = "We are getting married!"
 publishDir = "docs"
